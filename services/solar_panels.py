@@ -6,12 +6,16 @@ servo1 = AngularServo(12, min_angle=0, max_angle=180)
 
 servo1.angle = 90
 
+sleep(2)
+
 # Servo TWO!!!!
-servo2 = AngularServo(32, min_angle=0, max_angle=180)
+servo2 = AngularServo(18, min_angle=0, max_angle=180)
 
 servo2.angle = 90
 
-servo3 = AngularServo(35, min_angle=0, max_angle=180)
+sleep(2)
+
+servo3 = AngularServo(19, min_angle=0, max_angle=180)
 
 servo3.angle = 45
 
